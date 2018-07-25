@@ -1,2 +1,8 @@
 # webrtc_aec_x86
-单独移植编译webrtc的aec模块，少量测试效果还可以接受
+编译aec静态库和测试用例
+./compile
+运行测试用例
+chmod +x ./testaec
+./testaec data/mic16k.pcm data/ref16k.pcm data/aec16k.pcm 16000 20
+
+
